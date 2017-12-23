@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>登录</title>
+  <meta charset="utf-8">
+  <link type="text/css" rel="stylesheet" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="js/signin.js"></script>
+</head>
+<body>
+  <div id="wrapper">
+    <h1>登录</h1>
+    <form method="post" action="signin">
+      <fieldset>
+        <legend>用户登录</legend>
+        <div class="input_containor">
+          <div class="input_hint">用户名：</div><input type="text" name="username"><br />
+        </div>
+        <div class="input_containor">
+          <div class="input_hint">密码：</div><input type="password" name="password"><br />
+        </div>
+        <div id="button_containor">
+          <input type="button" value="清空" name="reset">
+          <input type="button" value="登录" name="signin">
+        </div>
+      </fieldset>
+    </form>
+    <p class="wrong"></p>
+  </div>
+
+</body>
+</html>

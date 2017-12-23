@@ -1,0 +1,56 @@
+#wrapper {
+    width: 500px;
+    height: 500px;
+    margin: 200px auto;
+}
+
+input[type="text"] {
+    margin: 5px 0;
+}
+
+fieldset {
+    width:472px;
+    margin:0 auto;
+}
+
+fieldset#info {
+    width:300px;
+    margin: 0 auto;
+}
+
+legend {
+    font-size: 30px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+.wrong{
+    color:red;
+}
+
+.hint {
+    font-size:50px;
+}
+
+#button_containor {
+    width: 120px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+div.input_containor {
+    width:300px;
+    margin:0 auto;
+}
+div.input_hint {
+    width: 110px;
+    display: inline-block;
+    text-align: right;
+}
+
+div.info {
+    display: inline-block;
+    width: 100px;
+}

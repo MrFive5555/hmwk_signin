@@ -1,0 +1,27 @@
+doctype html
+html
+  head
+    title 详情
+    link(type="text/css", rel="stylesheet", href="css/style.css")
+    script(type="text/javascript", src="js/jquery-1.7.1.min.js")
+    script(type="text/javascript", src="js/detail.js")
+  body
+    div#wrapper
+      h1 详情
+      form(method="post", action="logout")
+        fieldset
+          legend 用户详情
+          div.input_containor
+            div.input_hint 用户名 :  
+            div.info #{user.username}
+          div.input_containor
+            div.input_hint 学号 :  
+            div.info #{user.id}
+          div.input_containor
+            div.input_hint 电话 :  
+            div.info #{user.phone}
+          div.input_containor
+            div.input_hint 邮箱 :  
+            div.info #{user.email}
+          div#button_containor
+            input(type="button" value="退出" name="logout")
